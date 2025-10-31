@@ -2,10 +2,10 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-from .managers import RulesManager
-from .validators import CommissionValidator
-from .analyzers import DataAnalyzer
-from .generators import DataGenerator
+from managers import RulesManager
+from validators import CommissionValidator
+from analyzers import DataAnalyzer
+from generators import DataGenerator
 
 
 class CommissionPlatform:
